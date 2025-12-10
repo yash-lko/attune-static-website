@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Attune CTV Campaign</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cra-cdn.silverpush.co/Attune/assets/css/style.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+   <!-- Hero Section Start -->
+   <section class="hero-section">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="mainNavbar">
+         <div class="container-fluid px-3 d-flex flex-row align-items-center">
+            <a class="navbar-brand" href="./index.html" style="flex-shrink: 1;">
+               <img src="https://cra-cdn.silverpush.co/Attune/assets/img/logo.png" alt="Attune Logo" height="40" />
+            </a>
+            <div class="ms-auto">
+               <a href="./contact.html" class="btn btn-outline-light btn-md">Contact Us</a>
+               <!-- <a href="#" class="btn btn-outline-light btn-md ms-3">Login</a> -->
+            </div>
+         </div>
+      </nav>
+
+
+      <div class="container mt-2 pt-3 text-center">
+         <h1>Maximize your CTV campaign effectiveness with our <br class="d-none d-md-block" /> dynamic In - View Ads
+         </h1>
+         <p class="lead">
+            Seamlessly integrate ads into the viewer experience. Capture attention with uninterrupted content. <br
+               class="d-none d-md-block" />
+            Drive high audience engagement.
+         </p>
+         <a href="./contact.html"><button class="cta-btn">Request a Demo →</button></a>
+      </div>
+   </section>
+   <!-- Hero Section End -->
+
+
+
+
+   <!-- TV Section Start -->
+   <section class="tv-wrapper">
+      <div class="tv-screen">
+         <video autoplay muted loop playsinline>
+            <source src="https://cra-cdn.silverpush.co/Attune/assets/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+         </video>
+      </div>
+      <img src="https://cra-cdn.silverpush.co/Attune/assets/img/tv-frame.svg" alt="TV Frame" class="tv-frame" />
+   </section>
+   <!-- TV Section End -->
+
+
+
+   <div class="container-fluid container-seeitin">
+      <h2 class="text-center fw-bold mb-3 see-action-heading">
+         See it in <span class="highlighted-word">Action</span>
+      </h2>
+      <p class="text-center mb-5 ">
+         Discover how our cutting-edge ad solutions seamlessly
+         integrate into Live and on-demand (VOD)<span class="block-big"> content, delivering results that drive real
+            impact.<span>
+      </p>
+      <div class="sia-tabs-wrapper container">
+         <div class="sia-carousel-nav sia-left" onclick="siaScrollTabs(-1)">&#8249;</div>
+         <div class="sia-tab-carousel" id="siaTabCarousel">
+            <div class="sia-tab-box sia-active" onclick="siaShowContent(0)">
+               <h4 class="fw-bold ">Immersive PiP<span class="fw-normal pipspan"> (Picture-in-Picture)</span></h4>
+               <p>Companion Ad plays in parallel with the content with an immersive branded background.</p>
+               <img
+                  src="https://cra-cdn.silverpush.co/653b8df2a137bfd2227afbd9/attune/assets/img/see-it-in-action/immersive.jpg"
+                  alt="Immersive PiP Image" style="width: 100%; margin-top: 10px;">
+            </div>
+            <div class="sia-tab-box" onclick="siaShowContent(1)">
+               <h4 class="fw-bold ">Dynamic L-squeez</h4>
+               <p>The L shaped creative squeezes the content dynamically.</p>
+               <img
+                  src="https://cra-cdn.silverpush.co/653b8df2a137bfd2227afbd9/attune/assets/img/see-it-in-action/lsqeez.jpg"
+                  alt="Dynamic L-squeeze Image" style="width: 100%; margin-top: 10px;">
+            </div>
+            <div class="sia-tab-box" onclick="siaShowContent(2)">
+               <h4 class="fw-bold ">Overlay Focus</h4>
+               <p>The Ad is overlaid on the content drawing the user’s focus.</p>
+               <img
+                  src="https://cra-cdn.silverpush.co/653b8df2a137bfd2227afbd9/attune/assets/img/see-it-in-action/overlay.jpg"
+                  alt="Overlay Focus Image" style="width: 100%; margin-top: 10px;">
+            </div>
+            <div class="sia-tab-box" onclick="siaShowContent(3)">
+               <h4 class="fw-bold">Center Stage</h4>
+               <p>Puts the content on the centre and the Ad surrounds the whole content.</p>
+               <img
+                  src="https://cra-cdn.silverpush.co/653b8df2a137bfd2227afbd9/attune/assets/img/see-it-in-action/centre.jpg"
+                  alt="Center Stage Image" style="width: 100%; margin-top: 10px;">
+            </div>
+         </div>
+         <div class="sia-carousel-nav sia-right" onclick="siaScrollTabs(1)">&#8250;</div>
+      </div>
+
+      <div id="siaContentArea" class="mt-4 container">
+         <div class="sia-content-box sia-active">
+            <div class="sia-content-text">
+               <h2>Immersive PiP</h2>
+               <p>Companion Ad plays in parallel with the content with an immersive branded background.</p>
+            </div>
+            <img class="sia-content-img" src="https://cra-cdn.silverpush.co/Attune/assets/img/see-it-in-action/immersive-pip-ad.gif" alt="Immersive PiP" />
+         </div>
+         <div class="sia-content-box">
+            <div class="sia-content-text">
+               <h2>Dynamic L-squeeze</h2>
+               <p>The L shaped creative squeezes the content dynamically.</p>
+            </div>
+            <img class="sia-content-img" src="https://cra-cdn.silverpush.co/Attune/assets/img/see-it-in-action/squeeze-ad.gif" alt="Dynamic L-squeeze" />
+         </div>
+         <div class="sia-content-box">
+            <div class="sia-content-text">
+               <h2>Overlay Focus</h2>
+               <p>The Ad is overlaid on the content drawing the user’s focus.</p>
+            </div>
+            <img class="sia-content-img" src="https://cra-cdn.silverpush.co/Attune/assets/img/see-it-in-action/overlay.gif" alt="Overlay Focus" />
+         </div>
+         <div class="sia-content-box">
+            <div class="sia-content-text">
+               <h2>Center Stage</h2>
+               <p>Puts the content on the centre and the Ad surrounds the whole content.</p>
+            </div>
+            <img class="sia-content-img" src="https://cra-cdn.silverpush.co/Attune/assets/img/see-it-in-action/centre-state-ad.gif" alt="Center Stage" />
+         </div>
+      </div>
+   </div>
+
+
+   <!-- AI-Powered Video Ads Section Start -->
+   <section class="py-5 text-center ai-powered-section">
+      <div class="container">
+         <h2 class="fw-bold mb-3 ai-powered-heading px-3">
+            <span class="highlighted-bg">AI – Powered</span> in video Ads
+         </h2>
+         <p class="text-muted mb-3">
+            Our solution ingests video stream and leverages AI enabled contextual placement
+            to<br> deliver ads in innovative formats for a perfect in-view experience
+         </p>
+         <div class="ai-powered-subtitle-wrap">
+            <p class="ai-powered-subtitle">
+               Supports both live and on-demand video content
+            </p>
+         </div>
+         <div class="row justify-content-center mt-5">
+            <div class="col-md-5 mb-4">
+               <!-- Full-Width Autoplay Video Section -->
+               <section class="position-relative bg-dark rounded-2 video-wrapper">
+                  <div class="container-fluid px-0">
+                     <div class="ratio ratio-16x9">
+                        <video playsinline muted class="w-100 h-100 object-fit-cover rounded-3">
+                           <source src="https://cra-cdn.silverpush.co/Attune/assets/pepsi.mp4" type="video/mp4" />
+                           Your browser does not support the video tag.
+                        </video>
+                        <button class="custom-play-btn">
+                           <img src="https://cra-cdn.silverpush.co/Attune/assets/img/play-btn.png" alt="Play" class="play-icon" />
+                        </button>
+                     </div>
+                  </div>
+               </section>
+               <div class="content">
+                  <h5 class="mt-3 fw-bold">Live</h5>
+                  <p class="text-muted small">Real-time ad placement for sports, news, and high-viewership events.
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-5 mb-4">
+               <!-- Full-Width Autoplay Video Section -->
+               <section class="position-relative bg-dark rounded-2 video-wrapper">
+                  <div class="container-fluid px-0">
+                     <div class="ratio ratio-16x9">
+                        <video playsinline muted class="w-100 h-100 object-fit-cover rounded-3">
+                           <source src="https://cra-cdn.silverpush.co/Attune/assets/ghost.mp4" type="video/mp4" />
+                           Your browser does not support the video tag.
+                        </video>
+                        <button class="custom-play-btn">
+                           <img src="https://cra-cdn.silverpush.co/Attune/assets/img/play-btn.png" alt="Play" class="play-icon" />
+                        </button>
+                     </div>
+                  </div>
+               </section>
+               <div class="content">
+                  <h5 class="mt-3 fw-bold">VOD</h5>
+                  <p class="text-muted small">
+                     Perfectly tailored Ads for on-demand content such as series, movies, and talk shows.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- AI-Powered Video Ads Section End -->
+
+
+
+
+   <!-- Why Attune Section Start -->
+   <section class="why-attune-section py-2 pb-5 bg-white">
+      <div class="container">
+         <div class="text-center mb-5">
+            <h2 class="why-attune-heading text-center">
+               Why choose <span class="why-attune-highlight">Attune</span>
+            </h2>
+
+
+         </div>
+         <div class="wrapper-why-choose">
+  <div class="grid-boxes" id="grid">
+    <div class="col-stack" id="col1">
+      <div class="feature-box" id="box1">
+       <h4>
+    <img src="https://cra-cdn.silverpush.co/Attune/assets/img/why-attune-icons/eye.svg" alt="">
+    High View Rate
+  </h4>
+        <p>Engaging and non-intrusive ad formats ensure more users watch the ad</p>
+      </div>
+      <div class="feature-box" id="box3">
+        <h4>
+         <img src="https://cra-cdn.silverpush.co/Attune/assets/img/why-attune-icons/filter.svg" alt="">
+         Improved Conversion Rate</h4>
+        <p>Effective placement enhances ad performance and actions</p>
+      </div>
+    </div>
+    <div class="col-stack" id="col2">
+      <div class="feature-box" id="box2">
+        <h4>
+          <img src="https://cra-cdn.silverpush.co/Attune/assets/img/why-attune-icons/level.svg" alt="">
+         Targeted Reach</h4>
+        <p>Advanced targeting ensures your ads reach the most relevant audience segments</p>
+      </div>
+      <div class="feature-box" id="box4">
+        <h4>
+         <img src="https://cra-cdn.silverpush.co/Attune/assets/img/why-attune-icons/users.svg" alt="">
+         Enhanced Brand Visibility</h4>
+        <p>Standout creatives maximise audience recall and impact</p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+   </section>
+   <!-- Why Attune Section End -->
+
+
+
+   <!-- Parallax Section Start -->
+   <section class="attune-section-parallax text-white text-center d-flex align-items-center">
+      <div class="container z-1">
+         <h2 class="fw-bold maintitle">
+            Revolutionizing CTV Ads with <span class="attune-title-highlight">Unmatched Precision</span>
+         </h2>
+         <p class="attune-subtitle text-center">Explore the premium and exclusive features of Attune</p>
+         <div class="row align-items-center">
+            <div class="col-md-6">
+               <div class="ai-enabled-titles">
+               <h4 class="attune-heading attune-enabled-center aienabled text-start">AI enabled contextual ad placements
+               </h4>
+               <p class="attune-subtitle attune-enabled-center text-start">
+                   Delight and capture your targeted user using Attune’s contextual ads
+               </p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="attune-tv-frame">
+
+                  <video class="attune-tv-video" autoplay muted loop playsinline>
+                     <source src="https://cra-cdn.silverpush.co/Attune/assets/ai-video.mp4" type="video/mp4" />
+                  </video>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Parallax Section End -->
+
+
+
+   <!-- Advertiser Trust Section Start -->
+   <section class="trust-section bg-white py-5 text-center">
+      <div class="container">
+         <h2 class="fw-bold mb-4">CTV Advertisers who <span class="maincolortitle">Trust us</span></h2>
+         <div class="row justify-content-center align-items-center g-4 mb-4">
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/nba.png" alt="NBA" class="img-fluid"
+                  height="40"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/espn.png" alt="ESPN+" class="img-fluid"
+                  height="40"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/bbc.png" alt="BBC" class="img-fluid"
+                  height="40"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/amazon.png" alt="Amazon" class="img-fluid"
+                  height="40"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/cola.png" alt="CocaCola" class="img-fluid"
+                  height="40"></div>
+         </div>
+         <div class="row justify-content-center align-items-center g-4">
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/voltas.png" alt="Voltas" class="img-fluid"
+                  height="30"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/kohler.png" alt="Kohler" class="img-fluid"
+                  height="30"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/odonil.png" alt="Odonil" class="img-fluid"
+                  height="30"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/kohler-bold.png" alt="Odonil"
+                  class="img-fluid" height="30"></div>
+            <div class="col-4 col-md-2"><img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/himalaya.png" alt="Himalaya"
+                  class="img-fluid" height="30"></div>
+         </div>
+         <div class="mt-5 text-center">
+            <div class="badge-wrap d-inline-block">
+               <div class="badge bg-light border  fw-medium  px-3  text-wrap text-break">
+                  <i class="bi bi-patch-check-fill me-2"></i>
+                  <img src="https://cra-cdn.silverpush.co/Attune/assets/img/icons/partners/trade.png" class="trade-icon" /> We are Official TTD (The Trade
+                  Desk)
+                  Partner for contextual CTV advertising.
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Advertiser Trust Section End -->
+
+
+
+   <!-- Counter Section -->
+  
+
+   <section class="experience-section">
+      <div class="container">
+         <h1 class="experience-heading">
+            Experience <span class="highlighted-text">Attune yourself</span>
+         </h1>
+         <p class="mb-4 text-muted">
+            Discover how our interactive ad solutions transform your CTV users’ experience. Request a personalized demo
+            and <br>explore
+            innovative ad formats designed to captivate your audience and drive results.
+         </p>
+         <a href="./contact.html" class="btn btn-primary btn-lg px-4 attune-demo-btn">
+            Request a Demo
+         </a>
+      </div>
+   </section>
+<!-- 
+   <footer class="attune-footer text-white pt-5 pb-4">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start">
+         <div class="footer-left col-md-6 mb-4 mb-md-0">
+            <img class="attune-logo" src="https://cra-cdn.silverpush.co/Attune/assets/img/logo-footer.svg" alt="Attune Logo">
+            <p class="small mb-4">Silverpush is a contextual intelligence company that combines context and AI to help brands connect, 
+               learn, and get the best performance out of YouTube, 
+               streaming, and online video campaigns.
+            </p>
+            <div class="footer-links d-flex flex-wrap gap-3 small col-md-6">
+             
+            </div>
+         </div>
+
+         <div class="footer-right col-md-6">
+         
+            <form class="footer-form">
+              
+            </form>
+         </div>
+      </div>
+      <div class="container mt-5">
+         <hr class="border-light opacity-75">
+         <p class="text-center small mt-3 mb-2">© 2025 Attune. All rights reserved.</p>
+      </div>
+   </footer> -->
+   <footer class="footer">
+  <div class="container">
+    <!-- Top: logo and description -->
+    <div class="row align-items-start">
+      <div class="col-md-5 mb-4 mb-md-0 col-xs-12 col-sm-4">
+        <div class="logo">
+          <img src="https://cra-cdn.silverpush.co/Attune/assets/img/logo-footer.svg" alt="Attune Logo" />
+        </div>
+      </div>
+      <div class="col-md-7 text-xs-center col-xs-12 col-sm-8">
+        <p class="footer-description">
+          Silverpush is a contextual intelligence company that combines context and AI to help brands connect,
+           learn, and get the best performance out of YouTube,
+           streaming, and online video campaigns
+        </p>
+      </div>
+    </div>
+
+    <!-- Bottom: links + social icons -->
+    <div class="footer-bottom">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6 text-center text-md-start footer-links mb-3 mb-md-0">
+          © 2025 Silverpush |
+          <a href="https://www.silverpush.co/privacy-policy/" target="_blank">Privacy Policy</a>|
+          <a href="https://www.silverpush.co/terms-services/" target="_blank">Terms of Service</a>
+        </div>
+        <div class="col-md-6">
+          <ul class="social_icons">
+            <li>
+              <a href="https://twitter.com/silverpush?lang=en" target="_blank" aria-label="Twitter X">
+                <i><img src="https://cra-cdn.silverpush.co/Attune/assets/img/twitter.png" class="twitter-logo" ></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/silverpush/" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/silverpushofficial/" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/silverpush/" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@SilverPush" target="_blank" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+   <script>
+      document.querySelectorAll('.tab-box').forEach(tab => {
+         tab.addEventListener('click', () => {
+            document.querySelectorAll('.tab-box').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content-item').forEach(c => c.classList.add('d-none'));
+            tab.classList.add('active');
+            const target = tab.getAttribute('data-tab');
+            document.getElementById(target).classList.remove('d-none');
+         });
+      });
+
+   </script>
+   <script>
+      function animateCounters() {
+         const counters = document.querySelectorAll('.counter');
+         const speed = 100;
+
+         counters.forEach(counter => {
+            const updateCount = () => {
+               const target = +counter.getAttribute('data-target');
+               const count = +counter.innerText;
+               const increment = target / speed;
+
+               if (count < target) {
+                  counter.innerText = Math.ceil(count + increment);
+                  setTimeout(updateCount, 20);
+               } else {
+                  counter.innerText = target + (target < 10 ? 'x' : '%');
+               }
+            };
+            updateCount();
+         });
+      }
+      let triggered = false;
+      window.addEventListener('scroll', () => {
+         const section = document.querySelector('.ad-formats-section');
+         const rect = section.getBoundingClientRect();
+         if (!triggered && rect.top < window.innerHeight) {
+            animateCounters();
+            triggered = true;
+         }
+      });
+
+   </script>
+   <script>
+      document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+         const video = wrapper.querySelector('video');
+         const btn = wrapper.querySelector('.custom-play-btn');
+         btn.addEventListener('click', () => {
+            video.play();
+            btn.style.display = 'none';
+         });
+         video.addEventListener('click', () => {
+            if (video.paused) {
+               video.play();
+               btn.style.display = 'none';
+            } else {
+               video.pause();
+               btn.style.display = 'block';
+            }
+         });
+
+         video.addEventListener('ended', () => {
+            btn.style.display = 'block';
+         });
+      });
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+   <script>
+      const siaTabs = document.querySelectorAll('.sia-tab-box');
+      const siaContents = document.querySelectorAll('.sia-content-box');
+      const siaCarousel = document.getElementById('siaTabCarousel');
+      let siaIndex = 0;
+
+      function siaShowContent(index) {
+         siaTabs.forEach((tab, i) => tab.classList.toggle('sia-active', i === index));
+         siaContents.forEach((box, i) => box.classList.toggle('sia-active', i === index));
+         siaIndex = index;
+      }
+
+      function siaScrollTabs(direction) {
+         siaIndex += direction;
+         if (siaIndex < 0) siaIndex = 0;
+         if (siaIndex > siaTabs.length - 1) siaIndex = siaTabs.length - 1;
+
+         const targetTab = siaTabs[siaIndex];
+         siaCarousel.scrollTo({ left: targetTab.offsetLeft - siaCarousel.offsetLeft, behavior: 'smooth' });
+
+         siaShowContent(siaIndex);
+      }
+
+      function siaUpdateArrows() {
+         const leftArrow = document.querySelector('.sia-carousel-nav.sia-left');
+         const rightArrow = document.querySelector('.sia-carousel-nav.sia-right');
+
+         if (window.innerWidth >= 1200) {
+            leftArrow.style.display = 'none';
+            rightArrow.style.display = 'none';
+         } else {
+            leftArrow.style.display = siaCarousel.scrollLeft > 0 ? 'flex' : 'flex';
+            rightArrow.style.display = (siaCarousel.scrollWidth - siaCarousel.clientWidth - siaCarousel.scrollLeft > 10) ? 'flex' : 'flex';
+         }
+      }
+
+      siaCarousel.addEventListener('scroll', siaUpdateArrows);
+      window.addEventListener('load', siaUpdateArrows);
+      window.addEventListener('resize', siaUpdateArrows);
+   </script>
+<script>
+ const boxes = [
+  document.getElementById('box1'), // top-left
+  document.getElementById('box3'), // bottom-left
+  document.getElementById('box2'), // top-right
+  document.getElementById('box4')  // bottom-right
+];
+
+  const col1 = document.getElementById('col1');
+  const col2 = document.getElementById('col2');
+
+  let index = 0;
+
+  function updateBoxes() {
+    const isMobile = window.innerWidth <= 768;
+
+    // Reset all
+    boxes.forEach((box) => box.classList.remove('active', 'shrink'));
+    col1.classList.remove('wide', 'narrow');
+    col2.classList.remove('wide', 'narrow');
+
+    // Highlight current box
+    const activeBox = boxes[index];
+    activeBox.classList.add('active');
+
+    if (!isMobile) {
+      // Desktop logic
+      const isLeft = (index === 0 || index === 2);
+      const sibling = isLeft ? (index === 0 ? boxes[2] : boxes[0]) : (index === 1 ? boxes[3] : boxes[1]);
+      sibling.classList.add('shrink');
+
+      if (isLeft) {
+        col1.classList.add('wide');
+        col2.classList.add('narrow');
+      } else {
+        col1.classList.add('narrow');
+        col2.classList.add('wide');
+      }
+    }
+
+    index = (index + 1) % boxes.length;
+  }
+
+  updateBoxes();
+  setInterval(updateBoxes, 1500);
+  window.addEventListener('resize', updateBoxes);
+</script>
+</body>
+
+</html>
